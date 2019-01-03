@@ -1,12 +1,14 @@
 define({
     root: {
         t1: {
-            t1t1: "case1",
+        		t00: 1,
+        		t01: 1.0,
+            t1t1: "case1\n\n",
             t1t2: "case\"2",
-            	t1t3: "case'3",
+            	t1t3: "${0} case'3",
             	t1t4: "ca\"se'4",
             	t1t5: ["case5"],
-            	t1t6: ["case6", "cas\"e7"]
+            	t1t6: ["case\n6", "cas\"e7"]
         },
         t2: {
             t2t1: {
@@ -32,3 +34,4 @@ define({
     "zz": true
     // END NON-TRANSLATABLE
 });
+
